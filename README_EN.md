@@ -4,7 +4,7 @@
 
 This Python application allows you to send an OTP (One-Time Password) message to a destination number with an OTP from Tokopedia using their API. This app complies with Tokopedia's policy that limits sending no more than 3 OTPs within 1 hour. You can enter the phone number directly or use a text file with a list of numbers.
 
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<div align="center">
   <img src="https://img.shields.io/badge/python-3.x-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
   <img src="https://img.shields.io/github/repo-size/idugeni/Tokopedia-OTP-Sender" alt="GitHub Repo Size">
