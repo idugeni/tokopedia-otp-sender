@@ -1,0 +1,52 @@
+# Tokopedia OTP Sender
+
+![Tokopedia OTP Sender](https://opengraph.githubassets.com/0/idugeni/Tokopedia-OTP-Sender)
+
+Aplikasi Python ini memungkinkan Anda untuk mengirimkan pesan OTP (One-Time Password) ke nomor tujuan dengan OTP dari Tokopedia menggunakan API mereka. Aplikasi ini mematuhi kebijakan Tokopedia yang membatasi pengiriman tidak lebih dari 3 OTP dalam waktu 1 jam. Anda dapat memasukkan nomor telepon secara langsung atau menggunakan file teks dengan daftar nomor.
+
+## Requirement
+
+* Python 3.x
+* Requests library (`pip install requests`)
+* Colorama library (`pip install colorama`)
+
+## Cara Penggunaan
+
+**1. Clone Repository:**
+
+```powershell
+git clone https://github.com/idugeni/Tokopedia-OTP-Sender.git
+```
+
+```powershell
+cd Tokopedia-OTP-Sender
+```
+
+**2. Install Dependencies:**
+
+```powershell
+pip install -r requirements.txt
+```
+
+**3. Jalankan Script:**
+
+```powershell
+python tokopedia.py
+```
+
+**4. Ikuti Petunjuk:**
+
+* Pilih `opsi 1` untuk memasukkan nomor telepon tunggal.
+* Pilih `opsi 2` untuk menyediakan file `numbers.txt` dengan beberapa nomor telepon.
+* Script akan mulai mengirimkan OTP dan menampilkan kemajuan dan akan mengirim maksimal 3 OTP dengan waktu tunda pesan 60 detik. Dapat diulang dengan tenggang waktu 1 jam karena alasan kebijakan dari Tokopedia.
+
+## Fitur
+
+* Mengirimkan OTP ke nomor tujuan dengan OTP dari Tokopedia menggunakan API mereka.
+* Menghormati batasan tingkat kirim Tokopedia.
+* Mendukung pengiriman OTP ke beberapa nomor dari file `numbers.txt`.
+* Antarmuka konsol interaktif dengan output berkode warna.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [`LICENSE`](https://github.com/idugeni/Tokopedia-OTP-Sender/blob/main/LICENSE) untuk detailnya.
