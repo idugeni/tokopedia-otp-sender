@@ -1,14 +1,14 @@
 # Tokopedia OTP Sender
 
-![Tokopedia OTP Sender](https://opengraph.githubassets.com/0/idugeni/Tokopedia-OTP-Sender)
+![Tokopedia OTP Sender](https://opengraph.githubassets.com/ba48cab225ef8354c71500544e98b338/idugeni/tokopedia-otp-sender)
 
 Aplikasi Python ini memungkinkan Anda untuk mengirimkan pesan OTP (One-Time Password) ke nomor tujuan dengan OTP dari Tokopedia menggunakan API mereka. Aplikasi ini mematuhi kebijakan Tokopedia yang membatasi pengiriman tidak lebih dari 3 OTP dalam waktu 1 jam. Anda dapat memasukkan nomor telepon secara langsung atau menggunakan file teks dengan daftar nomor.
 
 <div align="center">
   <img src="https://img.shields.io/badge/python-3.x-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
-  <img src="https://img.shields.io/github/repo-size/idugeni/Tokopedia-OTP-Sender" alt="GitHub Repo Size">
-  <img src="https://img.shields.io/github/last-commit/idugeni/Tokopedia-OTP-Sender" alt="GitHub Last Commit">
+  <img src="https://img.shields.io/github/repo-size/idugeni/tokopedia-otp-sender" alt="GitHub Repo Size">
+  <img src="https://img.shields.io/github/last-commit/idugeni/tokopedia-otp-sender" alt="GitHub Last Commit">
 </div>
 
 ## Requirement
@@ -22,11 +22,11 @@ Aplikasi Python ini memungkinkan Anda untuk mengirimkan pesan OTP (One-Time Pass
 **1. Clone Repository:**
 
 ```powershell
-git clone https://github.com/idugeni/Tokopedia-OTP-Sender.git
+git clone https://github.com/idugeni/tokopedia-otp-sender.git
 ```
 
 ```powershell
-cd Tokopedia-OTP-Sender
+cd tokopedia-otp-sender
 ```
 
 **2. Install Dependencies:**
@@ -56,4 +56,4 @@ python tokopedia.py
 
 ## Lisensi
 
-Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [`LICENSE`](https://github.com/idugeni/Tokopedia-OTP-Sender/blob/main/LICENSE) untuk detailnya.
+Proyek ini dilisensikan di bawah **Lisensi MIT** - lihat file [`LICENSE`](https://github.com/idugeni/tokopedia-otp-sender/blob/main/LICENSE) untuk detailnya.
